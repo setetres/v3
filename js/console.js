@@ -121,7 +121,7 @@ function (cmdLineContainer, outputContainer) {
             // resume
 
             case 'resume':
-                output("<pre>┌─┐┬ ┬┬─┐┬─┐┌─┐┌┐┌┌┬┐<br/>│  │ │├┬┘├┬┘├┤ │││ │ <br/>└─┘└─┘┴└─┴└─└─┘┘└┘ ┴ </pre> <p><strong>Frontend Developer</strong> @ <a href='http://jchebly.com.br' rel='external'>JCHEBLY</a></p> <pre>┌─┐┌─┐┌─┐┌┬┐<br/>├─┘├─┤└─┐ │ <br/>┴  ┴ ┴└─┘ ┴ </pre> <ul> <li><strong>AgênciaClick Isobar</strong> <i>June 2009 – August 2010</i></li> <li><strong>Sense8</strong> <i>September 2008 – May 2009</i></li> <li><strong>HouseID</strong> <i>September 2007 – May 2008</i></li> </ul> <pre>┌─┐┌┬┐┬ ┬┌─┐┌─┐┌┬┐┬┌─┐┌┐┌<br/>├┤  │││ ││  ├─┤ │ ││ ││││<br/>└─┘─┴┘└─┘└─┘┴ ┴ ┴ ┴└─┘┘└┘</pre> <p><strong>Advertising</strong> @ <a href='http://newtonpaiva.br' rel='external'>Newton</a></p>"); break;
+                output("<pre>┌─┐┬ ┬┬─┐┬─┐┌─┐┌┐┌┌┬┐<br/>│  │ │├┬┘├┬┘├┤ │││ │ <br/>└─┘└─┘┴└─┴└─└─┘┘└┘ ┴ </pre> <p><strong>Frontend Developer</strong> @ <a href='http://jchebly.com.br' rel='external'>JCHEBLY</a> <i>Since September 2010</i></p> <pre>┌─┐┌─┐┌─┐┌┬┐<br/>├─┘├─┤└─┐ │ <br/>┴  ┴ ┴└─┘ ┴ </pre> <ul> <li><strong>AgênciaClick Isobar</strong> <i>June 2009 – August 2010</i></li> <li><strong>Sense8</strong> <i>September 2008 – May 2009</i></li> <li><strong>HouseID</strong> <i>September 2007 – May 2008</i></li> </ul> <pre>┌─┐┌┬┐┬ ┬┌─┐┌─┐┌┬┐┬┌─┐┌┐┌<br/>├┤  │││ ││  ├─┤ │ ││ ││││<br/>└─┘─┴┘└─┘└─┘┴ ┴ ┴ ┴└─┘┘└┘</pre> <p><strong>Advertising</strong> @ <a href='http://newtonpaiva.br' rel='external'>Newton</a></p>"); break;
 
             // theme
 
