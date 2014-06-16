@@ -9,7 +9,7 @@ function (cmdLineContainer, outputContainer) {
 
     var cmdLine_ = document.querySelector(cmdLineContainer);
     var output_ = document.querySelector(outputContainer);
-    var VERSION_ = '3.0';
+    var VERSION_ = '3.1';
     var CMDS_ = ['about', 'awards', 'clear', 'date', 'help', 'projects', 'resume', 'theme', 'version'];
     var THEMES_ = ['glitch', 'black'];
     var fs_ = null;
@@ -72,10 +72,10 @@ function (cmdLineContainer, outputContainer) {
             input.autofocus = false;
             input.readOnly = true;
             output_.appendChild(line);
-            $('a[rel=external]').attr('target', '_blank');
             if (this.value && this.value.trim()) {
                 var args = this.value.split(' ').filter(function (val, i) {
                     window.top.document.getElementById('soundtrack-type').play();
+                    $('a[rel=external]').attr('target', '_blank');
                     return val;
                 });
                 var cmd = args[0].toLowerCase();
@@ -116,7 +116,7 @@ function (cmdLineContainer, outputContainer) {
             // projects
 
             case 'projects':
-                output("<pre>┌─┐┌─┐┬─┐┌─┐┌─┐┌┐┌┌─┐┬    ┌─┐┬─┐┌─┐ ┬┌─┐┌─┐┌┬┐┌─┐<br/>├─┘├┤ ├┬┘└─┐│ ││││├─┤│    ├─┘├┬┘│ │ │├┤ │   │ └─┐<br/>┴  └─┘┴└─└─┘└─┘┘└┘┴ ┴┴─┘  ┴  ┴└─└─┘└┘└─┘└─┘ ┴ └─┘</pre> <ul> <li><a href='http://inkstarter.cc' rel='external'>InkStarter.cc</a> <i>You draw. You vote. I tattoo myself!</i></li> <li><a href='http://1997.setetres.st' rel='external'>1997</a> <i>Feeling responsively nostalgic?</i></li> <li><a href='http://v1.setetres.st' rel='external'>v1</a> <i>Award winning v1.0 of my website.</i></li> <li><a href='http://v2.setetres.st' rel='external'>v2</a> <i>v2.0 of my website.</i></li> <li><a href='http://go.setetres.st/starter' rel='external'>Starter</a> <i>A quick-start responsive framework for frontend development.</i></li> <li><a href='http://go.setetres.st/sasstarter' rel='external'>Sasstarter</a> <i>A quick-start responsive framework for frontend development with Sass.</i></li> <li><a href='http://puta.nu' rel='external'>PUTA.nu</a> <i>Porn Under Traditional Arts <sup>Soon</sup></i></li> </ul> <pre>┌─┐┬─┐┌─┐┌─┐┌─┐┌─┐┌─┐┬┌─┐┌┐┌┌─┐┬    ┌─┐┬─┐┌─┐ ┬┌─┐┌─┐┌┬┐┌─┐<br/>├─┘├┬┘│ │├┤ ├┤ └─┐└─┐││ ││││├─┤│    ├─┘├┬┘│ │ │├┤ │   │ └─┐<br/>┴  ┴└─└─┘└  └─┘└─┘└─┘┴└─┘┘└┘┴ ┴┴─┘  ┴  ┴└─└─┘└┘└─┘└─┘ ┴ └─┘</pre> <ul> <li><a href='http://cemporcentomp.com.br' rel='external'>100% Marca Própria</a> <i>HTML + CSS + JS</i> via <a href='http://jchebly.com.br' rel='external'>JCHEBLY</a></li> <li><a href='http://newtonpaiva.br' rel='external'>Newton</a> <i>HTML + CSS + JS</i> via <a href='http://jchebly.com.br' rel='external'>JCHEBLY</a></li> <li><a href='http://belo2014.com.br' rel='external'>Belo 2014</a> <i>HTML + CSS + JS</i> via <a href='http://jchebly.com.br' rel='external'>JCHEBLY</a></li> <li><a href='http://jchebly.com.br' rel='external'>JCHEBLY</a> <i>HTML + CSS + JS</i> via <a href='http://jchebly.com.br' rel='external'>JCHEBLY</a></li> <li><a href='http://dmsports.co' rel='external'>DM Sports</a> <i>HTML + CSS + JS + Wordpress</i></li> <li><a href='http://dsmais.com.br' rel='external'>DS+</a> <i>HTML + CSS + JS + Wordpress</i></li> </ul>"); break;
+                output("<pre>┌─┐┌─┐┬─┐┌─┐┌─┐┌┐┌┌─┐┬    ┌─┐┬─┐┌─┐ ┬┌─┐┌─┐┌┬┐┌─┐<br/>├─┘├┤ ├┬┘└─┐│ ││││├─┤│    ├─┘├┬┘│ │ │├┤ │   │ └─┐<br/>┴  └─┘┴└─└─┘└─┘┘└┘┴ ┴┴─┘  ┴  ┴└─└─┘└┘└─┘└─┘ ┴ └─┘</pre> <ul> <li><a href='http://placevom.it' rel='external'>Placevom.it</a> <i>Image placeholder for disgusting layouts. <sup>NEW</sup></i></li> <li><a href='http://inkstarter.cc' rel='external'>InkStarter.cc</a> <i>You draw. You vote. I tattoo myself!</i></li> <li><a href='http://1997.setetres.st' rel='external'>1997</a> <i>Feeling responsively nostalgic?</i></li> <li><a href='http://v1.setetres.st' rel='external'>v1</a> <i>Award winning v1.0 of my website.</i></li> <li><a href='http://v2.setetres.st' rel='external'>v2</a> <i>v2.0 of my website.</i></li> <li><a href='http://go.setetres.st/starter' rel='external'>Starter</a> <i>A quick-start responsive framework for frontend development.</i></li> <li><a href='http://go.setetres.st/sasstarter' rel='external'>Sasstarter</a> <i>A quick-start responsive framework for frontend development with Sass.</i></li> <li><a href='http://puta.nu' rel='external'>PUTA.nu</a> <i>Porn Under Traditional Arts <sup>SOON</sup></i></li> </ul> <pre>┌─┐┬─┐┌─┐┌─┐┌─┐┌─┐┌─┐┬┌─┐┌┐┌┌─┐┬    ┌─┐┬─┐┌─┐ ┬┌─┐┌─┐┌┬┐┌─┐<br/>├─┘├┬┘│ │├┤ ├┤ └─┐└─┐││ ││││├─┤│    ├─┘├┬┘│ │ │├┤ │   │ └─┐<br/>┴  ┴└─└─┘└  └─┘└─┘└─┘┴└─┘┘└┘┴ ┴┴─┘  ┴  ┴└─└─┘└┘└─┘└─┘ ┴ └─┘</pre> <ul> <li><a href='http://cemporcentomp.com.br' rel='external'>100% Marca Própria</a> <i>HTML + CSS + JS</i> via <a href='http://jchebly.com.br' rel='external'>JCHEBLY</a></li> <li><a href='http://newtonpaiva.br' rel='external'>Newton</a> <i>HTML + CSS + JS</i> via <a href='http://jchebly.com.br' rel='external'>JCHEBLY</a></li> <li><a href='http://belo2014.com.br' rel='external'>Belo 2014</a> <i>HTML + CSS + JS</i> via <a href='http://jchebly.com.br' rel='external'>JCHEBLY</a></li> <li><a href='http://jchebly.com.br' rel='external'>JCHEBLY</a> <i>HTML + CSS + JS</i> via <a href='http://jchebly.com.br' rel='external'>JCHEBLY</a></li> <li><a href='http://dmsports.co' rel='external'>DM Sports</a> <i>HTML + CSS + JS + Wordpress</i></li> <li><a href='http://dsmais.com.br' rel='external'>DS+</a> <i>HTML + CSS + JS + Wordpress</i></li> </ul>"); break;
 
             // resume
 
