@@ -75,8 +75,8 @@ function (cmdLineContainer, outputContainer) {
             if (this.value && this.value.trim()) {
                 var args = this.value.split(' ').filter(function (val, i) {
                     window.top.document.getElementById('soundtrack-type').play();
-                    $('a[rel=external]').attr('target', '_blank');
                     return val;
+                    $('a[rel=external]').attr('target', '_blank');
                 });
                 var cmd = args[0].toLowerCase();
                 args = args.splice(1);
