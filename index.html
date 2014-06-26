@@ -99,9 +99,14 @@
         </audio>
         <script src="/js/jquery.js"></script>
         <script src="/js/functions.js"></script>
-        <script src="/js/asc2-packed.js"></script>
-        <script src="/js/console-packed.js"></script>
         <script>
+
+            // mobile detect
+
+            if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+                document.write('<script src="/js/asc2-packed.js"><\/script>');
+                document.write('<script src="/js/console-packed.js"><\/script>');
+            }
 
             // analytics
 
