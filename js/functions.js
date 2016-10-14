@@ -20,7 +20,7 @@ $(document).ready(function(){
         soundtrackUp.volume=1;
     });
 
-    // taget blank
+    // target blank
 
     $('a[rel=external]').attr('target', '_blank');
 
