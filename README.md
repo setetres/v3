@@ -1,9 +1,7 @@
 v3 [![Github License](https://img.shields.io/github/license/setetres/v3.svg)](https://github.com/setetres/v3/blob/master/LICENSE)
 ==
 
-v3.0 of my website. [http://v3.setetres.st]
-
-[![v3](http://setetres.s3.amazonaws.com/setetres.st/img/v3-desktop.png?v=1&raw=true)](http://v3.setetres.st)
+[![v3](https://setetres.s3.amazonaws.com/setetres.st/img/v3-desktop.png?v=1&raw=true)](http://v3.setetres.st)
 
 License
 -------
