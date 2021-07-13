@@ -2,7 +2,7 @@
 
 [![Github License](https://img.shields.io/github/license/setetres/v3.svg)](https://github.com/setetres/v3/blob/master/LICENSE)
 
-| [![v3](https://setetres.s3.amazonaws.com/setetres.st/img/share-v3.png?v=2&raw=true)](http://v3.setetres.st) |
+| [![v3](https://setetres.s3.amazonaws.com/setetres.st/img/share-v3.png?v=3&raw=true)](http://v3.setetres.st) |
 | ----------------------------------------------------------------------------------------------------------- |
 
 License
